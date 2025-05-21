@@ -1,0 +1,53 @@
+{
+  "equipo": {
+    "nombre": "Joventut Badalona",
+    "escudo": "badalona.png",
+    "jugadores": [
+      {
+        "nombre": "Y.Kraag",
+        "foto": "kraag.png",
+        "dorsal": 1,
+        "puntos": 6,
+        "rebotes": 4,
+        "asistencias": 0,
+        "valoracion": 6
+      },
+      {
+        "nombre": "P.Ribas",
+        "foto": "ribas.png",
+        "dorsal": 4,
+        "puntos": 9,
+        "rebotes": 1,
+        "asistencias": 3,
+        "valoracion": 9
+      },
+      {
+        "nombre": "A.Grazulis",
+        "foto": "grazulis.png",
+        "dorsal": 24,
+        "puntos": 7,
+        "rebotes": 3,
+        "asistencias": 1,
+        "valoracion": 7
+      },
+      {
+        "nombre": "A.Tomic",
+        "foto": "tomic.png",
+        "dorsal": 44,
+        "puntos": 13,
+        "rebotes": 9,
+        "asistencias": 5,
+        "valoracion": 16
+      },
+      {
+        "nombre": "A.Hanga",
+        "foto": "hanga.png",
+        "dorsal": 88,
+        "puntos": 10,
+        "rebotes": 5,
+        "asistencias": 4,
+        "valoracion": 13
+      }
+    ]
+  }
+}

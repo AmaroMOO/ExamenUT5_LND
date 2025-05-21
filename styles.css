@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    font-size: 2.2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.equipos-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.equipo {
+    background: #ededed;
+    border-radius: 10px;
+    padding: 30px 40px 20px 40px;
+    min-width: 350px;
+    box-shadow: 0 2px 8px #0001;
+}
+.equipo img.escudo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+.equipo .nombre-equipo {
+    font-weight: 600;
+    margin-bottom: 18px;
+    font-size: 1.1rem;
+}
+.tabla-jugadores {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.tabla-jugadores th, .tabla-jugadores td {
+    padding: 7px 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+.tabla-jugadores th {
+    font-weight: 600;
+    color: #444;
+    background: #e0e0e0;
+}
+.tabla-jugadores td {
+    background: #f9f9f9;
+}
+.tabla-jugadores td.foto {
+    padding: 0;
+}
+.tabla-jugadores img.foto-jugador {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px #0002;
+}
+.tabla-jugadores tfoot td {
+    font-weight: 600;
+    background: #ededed;
+}
+.ver-mas {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 32px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+.ver-mas:hover {
+    background: #d32f2f;
+}
